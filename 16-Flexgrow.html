@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <title>
+             flex groww
+         </title>
+         <style>
+             body{
+                display: flex;
+                background-color: white;
+                align-items: center;
+                justify-content: center;
+             }
+             .main{
+                height: 300px;
+                width: 500px;
+                margin-top: 190px;
+                display: flex;
+                }
+             .images{
+                height: 300px;
+                flex: 1;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                overflow: hidden;   
+                border-radius: 30px;
+                box-shadow: 3px 5px 8px black;
+             }
+             .images{
+               flex:1;
+               overflow: hidden;
+             }
+             .images:hover{
+                flex-grow: 6;
+             }
+         </style>
+     </head>
+        <body>
+             <div class="main">
+                <img src="o1.webp"class="images">
+                <img src="o2.webp"class="images">
+                <img src="o3.webp"class="images">
+                <img src="o4.avif"class="images">
+                <img src="o5.jpg"class="images">
+             </div>
+        </body>
+</html>
